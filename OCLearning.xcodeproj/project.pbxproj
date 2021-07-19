@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6CE50049269579A3009549D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE50048269579A3009549D6 /* AppDelegate.m */; };
-		6CE5004C269579A3009549D6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5004B269579A3009549D6 /* SceneDelegate.m */; };
 		6CE5004F269579A3009549D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5004E269579A3009549D6 /* ViewController.m */; };
 		6CE50052269579A3009549D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE50050269579A3009549D6 /* Main.storyboard */; };
 		6CE50054269579A6009549D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE50053269579A6009549D6 /* Assets.xcassets */; };
@@ -16,6 +15,10 @@
 		6CE5005A269579A6009549D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE50059269579A6009549D6 /* main.m */; };
 		6CE50064269579A6009549D6 /* OCLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE50063269579A6009549D6 /* OCLearningTests.m */; };
 		6CE5006F269579A6009549D6 /* OCLearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5006E269579A6009549D6 /* OCLearningUITests.m */; };
+		6CE50084269579E4009549D6 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE50083269579E4009549D6 /* TimerViewController.m */; };
+		6CE9784726A50D6500DF2FB6 /* RWLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE9784626A50D6500DF2FB6 /* RWLockViewController.m */; };
+		6CE9784D26A510BE00DF2FB6 /* DrawRectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE9784C26A510BE00DF2FB6 /* DrawRectViewController.m */; };
+		6CE9785326A510C900DF2FB6 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE9785226A510C900DF2FB6 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		6CE50044269579A3009549D6 /* OCLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE50047269579A3009549D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CE50048269579A3009549D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6CE5004A269579A3009549D6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		6CE5004B269579A3009549D6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		6CE5004D269579A3009549D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6CE5004E269579A3009549D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6CE50051269579A3009549D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +55,14 @@
 		6CE5006A269579A6009549D6 /* OCLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE5006E269579A6009549D6 /* OCLearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCLearningUITests.m; sourceTree = "<group>"; };
 		6CE50070269579A6009549D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE50082269579E3009549D6 /* TimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		6CE50083269579E4009549D6 /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		6CE9784526A50D6500DF2FB6 /* RWLockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWLockViewController.h; sourceTree = "<group>"; };
+		6CE9784626A50D6500DF2FB6 /* RWLockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RWLockViewController.m; sourceTree = "<group>"; };
+		6CE9784B26A510BE00DF2FB6 /* DrawRectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawRectViewController.h; sourceTree = "<group>"; };
+		6CE9784C26A510BE00DF2FB6 /* DrawRectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawRectViewController.m; sourceTree = "<group>"; };
+		6CE9785126A510C900DF2FB6 /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		6CE9785226A510C900DF2FB6 /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +115,16 @@
 			children = (
 				6CE50047269579A3009549D6 /* AppDelegate.h */,
 				6CE50048269579A3009549D6 /* AppDelegate.m */,
-				6CE5004A269579A3009549D6 /* SceneDelegate.h */,
-				6CE5004B269579A3009549D6 /* SceneDelegate.m */,
 				6CE5004D269579A3009549D6 /* ViewController.h */,
 				6CE5004E269579A3009549D6 /* ViewController.m */,
+				6CE50082269579E3009549D6 /* TimerViewController.h */,
+				6CE50083269579E4009549D6 /* TimerViewController.m */,
+				6CE9784526A50D6500DF2FB6 /* RWLockViewController.h */,
+				6CE9784626A50D6500DF2FB6 /* RWLockViewController.m */,
+				6CE9784B26A510BE00DF2FB6 /* DrawRectViewController.h */,
+				6CE9784C26A510BE00DF2FB6 /* DrawRectViewController.m */,
+				6CE9785126A510C900DF2FB6 /* DrawView.h */,
+				6CE9785226A510C900DF2FB6 /* DrawView.m */,
 				6CE50050269579A3009549D6 /* Main.storyboard */,
 				6CE50053269579A6009549D6 /* Assets.xcassets */,
 				6CE50055269579A6009549D6 /* LaunchScreen.storyboard */,
@@ -266,10 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE50084269579E4009549D6 /* TimerViewController.m in Sources */,
 				6CE5004F269579A3009549D6 /* ViewController.m in Sources */,
+				6CE9784D26A510BE00DF2FB6 /* DrawRectViewController.m in Sources */,
 				6CE50049269579A3009549D6 /* AppDelegate.m in Sources */,
+				6CE9785326A510C900DF2FB6 /* DrawView.m in Sources */,
+				6CE9784726A50D6500DF2FB6 /* RWLockViewController.m in Sources */,
 				6CE5005A269579A6009549D6 /* main.m in Sources */,
-				6CE5004C269579A3009549D6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
